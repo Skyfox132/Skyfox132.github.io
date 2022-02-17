@@ -1406,10 +1406,9 @@ h2 {
 }
 
 .sticky {
-  opacity: 1;
   position: fixed;
   z-index: 100;
-  top: -70px;
+  top: 0;
   left: 0;
   background: #000;
 }
