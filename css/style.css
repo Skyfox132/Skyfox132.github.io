@@ -32,6 +32,10 @@
   font-style: normal;
 }
 
+a:visited {
+  color: #fff;
+}
+
 .footer-container {
   background: #000;
   color: #fff;
@@ -201,11 +205,6 @@ ol[class] {
 }
 
 /* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
-
-a:not([class]) {
-  -webkit-text-decoration-skip: ink;
-          text-decoration-skip-ink: auto;
-}
 
 /* Упрощаем работу с изображениями */
 
@@ -986,9 +985,6 @@ h2 {
   height: 0;
   overflow: hidden;
   margin-left: 40px;
-  -webkit-transition-duration: 2s;
-       -o-transition-duration: 2s;
-          transition-duration: 2s;
 }
 
 .tab-text h4 {
