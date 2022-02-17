@@ -541,9 +541,6 @@ h2 {
   -webkit-transform: translateY(-400px);
       -ms-transform: translateY(-400px);
           transform: translateY(-400px);
-  -webkit-transition: 2s;
-  -o-transition: 2s;
-  transition: 2s;
 }
 
 .header_menu a {
@@ -1064,7 +1061,7 @@ h2 {
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 21px;
+  top: 5px;
   left: -40px;
 }
 
