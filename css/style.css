@@ -1408,7 +1408,7 @@ h2 {
 .sticky {
   position: fixed;
   z-index: 100;
-  top: 0;
+  top: 30px;
   left: 0;
   background: #000;
 }
